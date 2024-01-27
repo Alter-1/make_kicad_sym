@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KiCad7 Symbol Generator</title>
+    <style>
+        #controls {
+            display: flex;
+            flex-direction: column;
+            width: 500px;
+            margin-bottom: 10px;
+        }
+
+        #controls > * {
+            margin: 5px 0;
+        }
+
+        #previewCanvas {
+            border: 1px solid #000;
+        }
+    </style></head>
+<body>
+    <h3>KiCad7 Symbol Generator <a href="https://alter.org.ua/en/soft/other/kicad_sym/">[ help ]<a></h3>
+    <div id="controls">
+        <textarea id="inputArea" rows="10" cols="50"></textarea>
+        <button onclick="DoPreview()">Preview</button>
+        <button onclick="DoDownload()">Download</button>
+    </div>
+    <canvas id="previewCanvas" width="500" height="500"></canvas>
+
+    <script src="kicad_sym.js"></script>
+    <br>
+    <p>Copyrigth (c) by Alter, see <a href="https://alter.org.ua/en/soft/other/kicad_sym/">alter.org.ua/en/soft/other/kicad_sym<a></p>
+</body>
+</html>

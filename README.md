@@ -130,4 +130,7 @@ VDD  vin
 python kicad_symbol_generator.py esp32-wt32-s1.sym.in > esp32-wt32-s1.kicad_sym
     or
 python kicad_symbol_generator.py esp32-wt32-s1.sym.in esp32-wt32-s1.csv
+    or
+kicad_sym.html from browser (requires kicad_sym.js)
 ```
+

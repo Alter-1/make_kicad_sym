@@ -14,6 +14,7 @@ direction = 0
 x, y = 0, 0
 pos_cache = {}  # Cache for storing positions based on size
 props = {} # properties
+prop_pos = 0
 
 keywords=['name:', 'size:', 'sizep:', 'step:', 'side:', 'num:', 'rnum:', 'font:', 'prop:']
 
@@ -98,8 +99,6 @@ def calculate_position():
     else:  # 'T' or 'B'
         x += step
     return position
-
-prop_pos = 0
 
 def print_prop(prop_name, val, col=-1, row=-1, hide=True):
     global props, font, prop_pos
