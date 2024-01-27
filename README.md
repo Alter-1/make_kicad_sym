@@ -63,7 +63,7 @@ Pins are positioned sequentially from top to bottom and left to right, following
 
 ## Example 
 
-'''
+```
 name: ESP32-WT32-S1
 
 prop: Reference U
@@ -122,7 +122,7 @@ GPIO18  io
 GPIO5  io
 GPIO17  io
 VDD  vin
-'''
+```
 
 ## Usage 
 
