@@ -1,0 +1,58 @@
+name: ESP32-WT32-S1
+
+prop: Reference U
+prop: Footprint RF_Module:ESP32-WT32-S1
+prop: Datasheet https://datasheet.lcsc.com/lcsc/2001060933_Wireless-tag-WT32-S1_C477832.pdf
+prop: ki_keywords RF Radio BT ESP ESP32 Espressif Ethernet external U.FL antenna
+prop: ki_description RF Module, ESP32-D0WD SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, Ethernet RMII, 32-bit, 2.7-3.6V, PCB antenna, SMD
+prop: ki_fp_filters ESP32?WT32?S1*
+
+font: 1.27
+step: 2.54
+sizep: 12 12
+
+side: L
+EN  input
+GPIO36  i
+GPIO38  i
+GPIO39  i
+GPIO34  i
+
+GPIO37  i
+GPIO35  i
+GPIO32  i
+GPIO33  i
+
+GPIO25  io
+GPIO26  io
+
+side: B
+--
+--
+GPIO27  io
+GPIO14  io
+GPIO12  io
+GPIO13  io
+
+GPIO15  io
+GPIO2  io
+GPIO0  io
+GPIO4  io
+
+GPIO16  io
+
+side: R
+rnum: 31
+GND -
+GPIO21  io
+U0TX/GPIO1 io
+U0RX/GPIO3 io
+
+GPIO22  io
+GPIO19  io
+GPIO23  io
+GPIO18  io
+
+GPIO5  io
+GPIO17  io
+VDD  vin
